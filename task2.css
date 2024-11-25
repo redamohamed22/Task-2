@@ -1,0 +1,66 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    max-width: 100%;
+    padding: 50px;
+    justify-content: space-between;
+}
+.data-form{
+    max-width: 500px;
+    flex: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+
+#company{
+    width: 206px;
+}
+#phone{
+    width: 206px;
+}
+#message{
+    letter-spacing: 1.5px;
+    resize: vertical;
+}
+button{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 6px;
+    letter-spacing: 2.5px;
+    background-color: gold;
+    font-size: 1rem;
+}
+.details{
+    
+    word-spacing: 15px;
+    color: white;
+}
+.marker{
+    cursor:pointer;
+    color: gold;
+    display: table-cell;
+}
+ul{
+    display: table-cell;
+    cursor: pointer;
+}
